@@ -4,11 +4,114 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Fragments.PickPowerFragment">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/FPBChoosetxtID"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="Pick A Power"
+            android:textColor="@color/text_button_color"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            />
+
+
+        <Button
+            android:id="@+id/FPBTurtelBtnID"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/turtle_power_option"
+            android:drawableLeft="@drawable/turtle_power"
+            android:paddingLeft="5dp"
+            android:paddingRight="12dp"
+             android:textColor="@color/text_button_color"
+            /> <Button
+        android:id="@+id/FPBLightingBtnID"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/lightning_option"
+        android:drawableLeft="@drawable/lightning"
+        android:paddingLeft="5dp"
+        android:paddingRight="12dp"
+         android:textColor="@color/text_button_color"
+        /> <Button
+        android:id="@+id/FPBFlaigthBtnID"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/flight_option"
+        android:drawableLeft="@drawable/super_man_crest"
+        android:paddingLeft="5dp"
+        android:paddingRight="12dp"
+         />
+
+
+        <Button
+            android:id="@+id/FPBWebBtnID"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/web_slinging_option"
+            android:drawableLeft="@drawable/spider_web"
+            android:paddingLeft="5dp"
+            android:paddingRight="12dp"
+             />
+
+        <Button
+            android:id="@+id/FPBLaserBtnID"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/laser_vision_option"
+            android:drawableLeft="@drawable/laser_vision"
+            android:paddingLeft="5dp"
+            android:paddingRight="12dp"
+             />
+
+        <Button
+            android:id="@+id/FPBStrengthID"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/super_strength_option"
+            android:drawableLeft="@drawable/super_strength"
+            android:paddingLeft="5dp"
+            android:paddingRight="12dp"
+             />
+
+        <Button
+            android:id="@+id/ChooseBtn"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/show_backstory_button"
+            android:backgroundTint="@color/text_button_color"
+            android:paddingLeft="5dp"
+            android:paddingRight="12dp"
+             android:textColor="#10161d"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+</ScrollView>
 
 </FrameLayout>
