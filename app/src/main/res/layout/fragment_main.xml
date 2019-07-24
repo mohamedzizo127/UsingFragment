@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hero_bg_gradient"
+    tools:context=".Fragments.MainFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/heroes" />
+
+        <Button
+            android:id="@+id/AccedantBtn"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/lightning"
+             android:paddingLeft="5dp"
+            android:paddingRight="12dp"
+            android:text="Came By Accedent"
+            android:textColor="@color/text_button_color" />
+
+        <Button
+            android:id="@+id/GenericBtn"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/atomic"
+             android:paddingLeft="5dp"
+            android:paddingRight="12dp"
+            android:text="Came By Accedent"
+            android:textColor="@color/text_button_color"
+            tools:text="Genetic mutation" />
+
+        <Button
+            android:id="@+id/BornWithBtn"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/rocket"
+             android:paddingLeft="5dp"
+            android:paddingRight="12dp"
+            android:text="Born with them"
+            android:textColor="@color/text_button_color" />
+
+        <Button
+            android:id="@+id/ChooseBtn"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/hero_solid_button"
+            android:backgroundTint="@color/text_button_color"
+            android:paddingLeft="5dp"
+            android:paddingRight="12dp"
+            android:text="Choose Bower"
+            android:textColor="#10161d"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</FrameLayout>
